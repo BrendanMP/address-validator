@@ -139,7 +139,7 @@
       success: function (data) {
         if (data) {
           var distance = data.rows[0].elements[0].distance.value;
-          if (distance > 1950) {
+          if (distance > 19500) {
             $('#distance').text('Not Eligible ' + distance +' meters')
           } else {
             $('#distance').text('Eligible ' + distance +' meters')
